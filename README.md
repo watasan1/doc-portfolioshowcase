@@ -54,17 +54,16 @@ GitHub API を使用して、リポジトリのデータを取得し、一覧と
 
 ## 開発手順
 
-環境構築
-Next.js の導入（TS+Tailwind）
-shadcn/ui の導入
-サイトレイアウトの作成
-GitHub API からのデータフェッチロジックの追加
-コンテンツ一覧の実装
-コンテンツのフィルタリング機能の追加
-詳細ページの実装(md ファイルの扱い)
-supabase の導入
-リアクションコンポーネントの作成
-リアクション機能の実装(server actions)
+Chapter 01 Next.js の導入
+Chapter 02 shadcn/ui の導入
+Chapter 03 サイトレイアウトの作成
+Chapter 04 GitHub API からのデータフェッチロジックの追加
+Chapter 05 コンテンツ一覧の実装
+Chapter 06 コンテンツのフィルタリング機能の追加
+Chapter 07 詳細ページの実装(md ファイルの扱い)
+Chapter 08 supabase の導入
+Chapter 09 リアクションコンポーネントの作成
+Chapter 10 リアクション機能の実装(server actions)
 
 ## Chapter 01 Next.js の導入
 
