@@ -127,6 +127,8 @@ mkdir portfolio-showcase-app
 cd portfolio-showcase-app
 ```
 
+---
+
 **3. Next.js プロジェクトを作成**
 
 Next.js では、自動設定コマンドを使用して簡単にプロジェクトを生成できます。
@@ -158,7 +160,9 @@ Ok to proceed? (y)
 `? Would you like to use Turbopack? (recommended) › Yes`Yesが選択されている状態でエンターキーをクリック
 `? Would you like to customize the import alias (`@/*` by default)? › No `Noが選択されている状態でエンターキーをクリック
 
-Success! Created portfolio-showcase-app at /Users/アカウント名/work/portfolio-showcase-app
+Success! Created portfolio-showcase-app at /Users/アカウント名/portfolio-showcase-app
+
+---
 
 ### 3. 開発サーバーを起動
 
@@ -170,58 +174,52 @@ npm run dev
 
 ブラウザで [http://localhost:3000](http://localhost:3000) を開き、Next.js の初期画面が表示されれば成功です。
 
-FAQ
-Turbopack とは？
-Turbopack は、Next.js を開発する Vercel チームによって Rust で書かれた新しいバンドラーです。
-Webpack の後継として設計されており、開発サーバーのビルド速度を大幅に向上させます。
+---
 
-主な特徴
-高速な開発サーバー
+### 4. gitでプロジェクトを管理する
 
-npm run dev 実行時に使用され、変更内容が即座に反映されます
+プロジェクトの進捗を追跡し、作業履歴を残すために、タスクごとにコミットを行うことは非常に重要です。
 
-増分ビルド
-
-変更されたファイルのみを再コンパイルし、開発体験を劇的に改善
-
-Rust 製
-
-高速かつメモリ効率の良い設計
-
-Turbopack は Next.js v15 以降で安定版として利用可能です。
-
-まとめ
-このチャプターでは、次の内容を学びました。
-
-create-next-app コマンドを使って、簡単に Next.js プロジェクトをセットアップできる
-
-Turbopack によって、開発サーバーの動作が非常に高速化されている
-
-Node.js の環境確認から開発サーバーの起動までの流れを理解した
-
-おまけ：git commit
-プロジェクトの進捗を追跡し、作業履歴を残すために、
-タスクごとにコミットを行うことは非常に重要です。
-特にチーム開発では必須のスキルです。
-
-💡補足：create-next-app 実行後は、最初のコミットが自動で追加されています。
-このタスクでは新たにコミットする必要はありません。
-
+Next.jsでは、create-next-app 実行後は、最初のコミットが自動で追加されますので、このタスクでは新たにコミットする必要はありません。
 以降の開発では、タスクが一区切りつくごとに以下のようにコミットしていきましょう。
 
-bash
-コードをコピーする
-git add .
-git commit -m "Add Next.js project setup"
-これで Next.js 環境の構築が完了です 🚀
-次のチャプターでは、Tailwind CSS の導入に進みましょう！
+---
 
-yaml
-コードをコピーする
+### 5. 本章のまとめ
 
+**Turbopack とは？**
 
+Turbopack は、次世代のバンドラーです。
 
-### 1. Next.jsのプロジェクトを作成する
+**高速な開発サーバー**
+
+npm run dev（開発モード）で使用され、
+コードの変更が即座にブラウザへ反映されます。
+
+従来の Webpack よりも数十倍高速に動作します。
+
+**増分ビルド**
+
+ファイル全体を再ビルドするのではなく、変更のあった部分のみを再コンパイル。
+
+**バンドラー（Bundler）とは？**
+
+バンドラーとは、以下の機能があります。
+
+1. 複数のファイル（JavaScript、CSS、画像など）を 1つまたは少数のファイルにまとめるツール のことです。
+2. あるファイルが別nファイルw必要としている場合、自動で正しい順番に真tメル
+3. 最適化（圧縮・トランスパイル）
+   * 不要なコードの削除や、古いブラウザ向けに交換
+  
+**ホットリロード**
+コードの変更内容が即座に反映されます。
+
+このチャプターでは、次の内容を学びました。
+
+1. create-next-app コマンドを使って、簡単に Next.js プロジェクトをセットアップできる
+2. Turbopack によって、開発サーバーの動作が非常に高速化されている
+3. Node.js の環境確認から開発サーバーの起動までの流れを理解した
+
 
 ## Chapter 02 shadcn/ui の導入
 ## Chapter 03 サイトレイアウトの作成
