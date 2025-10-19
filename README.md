@@ -19,12 +19,13 @@ GitHub API を使用して、リポジトリのデータを取得し、一覧と
 
 ## 学習する内容
 
-Next.js v15/ App Router の使用
-TypeScriptによる型チェック
-shadcn/ui によるデザインの導入
-GitHub API の使用
-md ファイルの取り扱い
-supabase を使用したデータベース連携
+* Next.js v15/ App Router の使用
+* TypeScriptによる型チェック
+* shadcn/ui によるデザインの導入
+* GitHub API の使用
+* md ファイルの取り扱い
+* supabase を使用したデータベース連携
+
 この勉強会を通して、React を使った成果物を１つ構築することを目指します！
 
 ## ハンズオンを進めるための前提条件
