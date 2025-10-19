@@ -66,16 +66,20 @@ supabase の導入
 リアクションコンポーネントの作成
 リアクション機能の実装(server actions)
 
-## 1. Next.js の導入（TS+Tailwind）
+## Chapter 01 Next.js の導入
 
-## 2. shadcn/ui の導入
-## 3. サイトレイアウトの作成
-## 4. GitHub API からのデータフェッチロジックの追加
-## 5. コンテンツ一覧の実装
-## 6. コンテンツのフィルタリング機能の追加
-## 7. 詳細ページの実装(md ファイルの扱い)
-## 8. supabase の導入
-## 9. リアクションコンポーネントの作成
-## 10. リアクション機能の実装(server actions)
+### Next.jsとは
+
+### 1. Next.jsのプロジェクトを作成する
+
+## Chapter 02 shadcn/ui の導入
+## Chapter 03 サイトレイアウトの作成
+## Chapter 04 GitHub API からのデータフェッチロジックの追加
+## Chapter 05 コンテンツ一覧の実装
+## Chapter 06 コンテンツのフィルタリング機能の追加
+## Chapter 07 詳細ページの実装(md ファイルの扱い)
+## Chapter 08 supabase の導入
+## Chapter 09 リアクションコンポーネントの作成
+## Chapter 10 リアクション機能の実装(server actions)
 
 
