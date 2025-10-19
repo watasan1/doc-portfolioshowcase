@@ -2,6 +2,10 @@
 
 ## 【Next.js + GitHub API 入門】初心者向けハンズオン勉強会【① / 全2回】
 
+## 教材リンク
+
+https://zenn.dev/kazzyfrog/books/portfolio-showcase-1-kvr8cil/viewer/readme
+
 ## スケジュール
 
 ## 本日のお題
