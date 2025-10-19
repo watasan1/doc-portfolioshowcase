@@ -30,11 +30,11 @@ GitHub API を使用して、リポジトリのデータを取得し、一覧と
 
 ## ハンズオンを進めるための前提条件
 
-Node.js 環境（v18.18.0 以上）が構築されたPCが必要です
-Git/ GitHub環境（アカウント）の用意
-supabase のアカウントが必要です
-HTML/CSS/JavaScript の基礎知識が必要です
-React の基礎（Progateレベルの内容）は理解している前提の内容となっております
+* Node.js 環境（v18.18.0 以上）が構築されたPCが必要です
+* Git/ GitHub環境（アカウント）の用意
+* supabase のアカウントが必要です
+* HTML/CSS/JavaScript の基礎知識が必要です
+* React の基礎（Progateレベルの内容）は理解している前提の内容となっております
 
 ## ページ構成と機能仕様
 
