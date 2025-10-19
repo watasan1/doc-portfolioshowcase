@@ -1,4 +1,4 @@
-# doc-portfolishowcaseo-app
+# doc-portfolio-showcase
 
 ## 【Next.js + GitHub API 入門】初心者向けハンズオン勉強会【① / 全2回】
 
