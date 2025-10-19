@@ -68,7 +68,158 @@ supabase の導入
 
 ## Chapter 01 Next.js の導入
 
-### Next.jsとは
+### 1. このチャクターの目次
+
+- [Next.js / App Router とは？](#nextjs--app-router-とは)
+- [Next.js の導入手順](#nextjs-の導入手順)
+- [FAQ](#faq)
+- [まとめ](#まとめ)
+- [おまけ：git commit](#おまけgit-commit)
+
+---
+
+### 1, Next.jsの主な特徴
+
+Next.js は、**React ベースのモダンな Web アプリケーションフレームワーク**です。  
+主な特徴をいくつか紹介します。
+
+- **サーバーサイドレンダリング（SSR）**
+  - ページをサーバー側で事前にレンダリングし、初期表示を高速化  
+  - SEO にも有利です
+  - 必要に応じて静的サイト生成（SSG）や増分静的再生成（ISR）も可能です
+
+- **App Router**
+  - Pages Router より新しいルーティングシステム  
+  - ディレクトリベースのルーティング  
+  - サーバーコンポーネントとクライアントコンポーネントを組み合わせ、高速で柔軟な開発が可能です
+
+- **その他の特徴**
+  - 自動コード分割：ページごとに必要な JavaScript のみ読み込み  
+  - データキャッシュ：リクエストのメモ化・再検証が容易  
+  - サーバーアクション：ユーザー操作に応じた非同期処理をサーバー上で実行可能  
+
+---
+
+### 2. Next.js の導入手順
+
+以下の手順に沿って、Next.js 環境を構築していきます。  
+公式ドキュメントも参考にしながら進めてください。
+
+**1. Node.js のインストール確認**
+
+Next.js には **Node.js v18.18.0 以上** が必要です。  
+以下のコマンドでバージョンを確認してください。
+
+```bash
+%  node -v
+```
+v22.18.0
+
+**2. プロジェクトディレクトリを作成**
+
+ターミナルから、お好きな場所にプロジェクト用ディレクトリを作成して移動します。
+
+```bash
+mkdir portfolio-showcase-app
+```
+
+```bash
+cd portfolio-showcase-app
+```
+
+**3. Next.js プロジェクトを作成**
+
+Next.js では、自動設定コマンドを使用して簡単にプロジェクトを生成できます。
+
+```bash
+npx create-next-app@latest
+```
+
+プロンプトが表示されたら、以下のように入力・選択してください。
+
+「次のパッケージ（create-next-app@15.5.6）を一時的にインストールする必要があります。
+進めてもよいですか？」
+
+Need to install the following packages:
+create-next-app@15.5.6
+Ok to proceed? (y) 
+
+指定のバージョンのcreate-next-appがインストールされている場合は表示されません。
+
+そのまま y を入力して Enterキー を押します。
+
+`? What is your project named? › .` ビリオドを入力してエンターをクリック
+`? Would you like to use TypeScript? › Yes`Yesが選択されている状態でエンターキーをクリック
+`? Which linter would you like to use? › - Use arrow-keys. Return to submit.
+❯   ESLint`ESLintが選択されている状態でエンターキーをクリックする
+`? Would you like to use Tailwind CSS? › Yes` Yesが選択されている状態でエンターキーをクリック
+`? Would you like your code inside a `src/` directory? › Yes`Yesが選択されている状態でエンターキーをクリック
+`? Would you like to use App Router? (recommended) › Yes`Yesが選択されている状態でエンターキーをクリック
+`? Would you like to use Turbopack? (recommended) › Yes`Yesが選択されている状態でエンターキーをクリック
+`? Would you like to customize the import alias (`@/*` by default)? › No `Noが選択されている状態でエンターキーをクリック
+
+Success! Created portfolio-showcase-app at /Users/アカウント名/work/portfolio-showcase-app
+
+### 3. 開発サーバーを起動
+
+作成が完了したら、開発サーバーを起動して動作を確認します。
+
+```bash
+npm run dev
+```
+
+ブラウザで [http://localhost:3000](http://localhost:3000) を開き、Next.js の初期画面が表示されれば成功です。
+
+FAQ
+Turbopack とは？
+Turbopack は、Next.js を開発する Vercel チームによって Rust で書かれた新しいバンドラーです。
+Webpack の後継として設計されており、開発サーバーのビルド速度を大幅に向上させます。
+
+主な特徴
+高速な開発サーバー
+
+npm run dev 実行時に使用され、変更内容が即座に反映されます
+
+増分ビルド
+
+変更されたファイルのみを再コンパイルし、開発体験を劇的に改善
+
+Rust 製
+
+高速かつメモリ効率の良い設計
+
+Turbopack は Next.js v15 以降で安定版として利用可能です。
+
+まとめ
+このチャプターでは、次の内容を学びました。
+
+create-next-app コマンドを使って、簡単に Next.js プロジェクトをセットアップできる
+
+Turbopack によって、開発サーバーの動作が非常に高速化されている
+
+Node.js の環境確認から開発サーバーの起動までの流れを理解した
+
+おまけ：git commit
+プロジェクトの進捗を追跡し、作業履歴を残すために、
+タスクごとにコミットを行うことは非常に重要です。
+特にチーム開発では必須のスキルです。
+
+💡補足：create-next-app 実行後は、最初のコミットが自動で追加されています。
+このタスクでは新たにコミットする必要はありません。
+
+以降の開発では、タスクが一区切りつくごとに以下のようにコミットしていきましょう。
+
+bash
+コードをコピーする
+git add .
+git commit -m "Add Next.js project setup"
+これで Next.js 環境の構築が完了です 🚀
+次のチャプターでは、Tailwind CSS の導入に進みましょう！
+
+yaml
+コードをコピーする
+
+
 
 ### 1. Next.jsのプロジェクトを作成する
 
