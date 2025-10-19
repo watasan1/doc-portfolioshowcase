@@ -5,11 +5,20 @@
 Next.js・TypeScript・GitHub API を使って、  
 ポートフォリオショーケースアプリを構築するハンズオン教材です。
 
+---
+
 ## 教材リンク
 
 https://zenn.dev/kazzyfrog/books/portfolio-showcase-1-kvr8cil/viewer/readme
 
+---
+
 ## スケジュール
+
+- 第1回：Next.js 導入から GitHub API 連携まで
+- 第2回：詳細ページ・リアクション機能・Supabase 連携まで
+
+---
 
 ## 本日のお題
 
@@ -19,34 +28,40 @@ https://zenn.dev/kazzyfrog/books/portfolio-showcase-1-kvr8cil/viewer/readme
 
 このプロジェクトでは、GitHub リポジトリのショーケースアプリを構築します。
 
-個人のポートフォリオから、特定の技術に基づいたまとめサイトまで、
-多岐にわたって、組み込まれることが多い、一般的なショーケースです！
+個人ポートフォリオや特定技術のまとめサイトなど、幅広く応用できる構成です。
 
 GitHub API を使用して、リポジトリのデータを取得し、一覧と詳細を表示します。
 
+---
+
 ## 学習する内容
 
-* Next.js v15/ App Router の使用
-* TypeScriptによる型チェック
-* shadcn/ui によるデザインの導入
-* GitHub API の使用
-* md ファイルの取り扱い
-* supabase を使用したデータベース連携
+- Next.js v15 / App Router の使用
+- TypeScript による型チェック
+- shadcn/ui によるデザインの導入
+- GitHub API の使用
+- Markdown(.md)ファイルの取り扱い
+- Supabase を使用したデータベース連携
 
-この勉強会を通して、React を使った成果物を１つ構築することを目指します！
+> このハンズオンを通して、React を使った成果物を1つ構築することを目指します。
+
+---
 
 ## ハンズオンを進めるための前提条件
 
-* Node.js 環境（v18.18.0 以上）が構築されたPCが必要です
-* Git/ GitHub環境（アカウント）の用意
-* supabase のアカウントが必要です
-* HTML/CSS/JavaScript の基礎知識が必要です
-* React の基礎（Progateレベルの内容）は理解している前提の内容となっております
+- Node.js（v18.18.0 以上）がインストールされていること
+- Git / GitHub環境（アカウント）の用意していること
+- Supabase のアカウントを用意していること
+- HTML / CSS / JavaScript の基礎知識が必要です
+- React の基礎を理解していること
+
+---
 
 ## ページ構成と機能仕様
 
-- TOP ページ：
-  - ユーザーがサイトにアクセスすると、コンテンツ一覧を閲覧できる
+### TOP ページ
+
+- コンテンツ一覧を表示
   - トピックのボタンを押すと、一致するコンテンツのみが表示される
   - 個別のコンテンツをクリックして、詳細ページに遷移できる
 
