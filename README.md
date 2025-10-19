@@ -155,15 +155,15 @@ Ok to proceed? (y)
 
 そのまま y を入力して Enterキー を押します。
 
-`? What is your project named? › .` ビリオドを入力してエンターをクリック
-`? Would you like to use TypeScript? › Yes`Yesが選択されている状態でエンターキーをクリック
-`? Which linter would you like to use? › - Use arrow-keys. Return to submit.
-❯   ESLint`ESLintが選択されている状態でエンターキーをクリックする
-`? Would you like to use Tailwind CSS? › Yes` Yesが選択されている状態でエンターキーをクリック
-`? Would you like your code inside a `src/` directory? › Yes`Yesが選択されている状態でエンターキーをクリック
-`? Would you like to use App Router? (recommended) › Yes`Yesが選択されている状態でエンターキーをクリック
-`? Would you like to use Turbopack? (recommended) › Yes`Yesが選択されている状態でエンターキーをクリック
-`? Would you like to customize the import alias (`@/*` by default)? › No `Noが選択されている状態でエンターキーをクリック
+1. `? What is your project named? › .` ビリオドを入力してエンターをクリック  
+2. `? Would you like to use TypeScript? › Yes`Yesが選択されている状態でエンターキーをクリック  
+3. `? Which linter would you like to use? › - Use arrow-keys. Return to submit.
+❯   ESLint`ESLintが選択されている状態でエンターキーをクリックする  
+4. `? Would you like to use Tailwind CSS? › Yes` Yesが選択されている状態でエンターキーをクリック  
+5. `? Would you like your code inside a `src/` directory? › Yes`Yesが選択されている状態でエンターキーをクリック  
+6. `? Would you like to use App Router? (recommended) › Yes`Yesが選択されている状態でエンターキーをクリック  
+7. `? Would you like to use Turbopack? (recommended) › Yes`Yesが選択されている状態でエンターキーをクリック  
+8. `? Would you like to customize the import alias (`@/*` by default)? › No `Noが選択されている状態でエンターキーをクリック  
 
 Success! Created portfolio-showcase-app at /Users/アカウント名/portfolio-showcase-app
 
