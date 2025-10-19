@@ -62,7 +62,7 @@ GitHub API を使用して、リポジトリのデータを取得し、一覧と
 - [Chapter 04 GitHub API からのデータフェッチロジックの追加](#chapter-04-github-api-からのデータフェッチロジックの追加)
 - [Chapter 05 コンテンツ一覧の実装](#chapter-05-コンテンツ一覧の実装)
 - [Chapter 06 コンテンツのフィルタリング機能の追加](#chapter-06-コンテンツのフィルタリング機能の追加)
-- [Chapter 07 詳細ページの実装 - mdファイルの扱う](#chapter-07-詳細ページの実装-mdファイルの扱う)
+- [Chapter 07 詳細ページの実装 mdファイルの扱う](#chapter-07-詳細ページの実装-mdファイルの扱う)
 - [Chapter 08 supabase の導入](#chapter-08-supabase-の導入)
 - [Chapter 09 リアクションコンポーネントの作成](#chapter-09-リアクションコンポーネントの作成)
 - [Chapter 10 リアクション機能の実装(server actions)](#chapter-10-リアクション機能の実装server-actions)
